@@ -1,0 +1,221 @@
+@font-face{
+    font-family: 'QORE';
+   src: url(../Qore.otf);
+   }
+body{
+    background: url(../img/background.png) center no-repeat;
+}
+#menu{
+    background-size: 100% 100%;
+    width: 1100px;
+    height: 615px;
+    margin-top: 2%;
+    background: url(../img/backgroundMain.png) center no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    /*display: none;*/
+}
+#label{
+    font-family: 'QORE';
+    font-size: 80px;
+    color: #FFFFFF;
+    margin-top: 8%;
+    margin-left: 2%;
+}
+.text-main{
+    font-family: 'Odibee Sans';
+    font-size: 64px;
+    color: #FFFFFF;
+    opacity: 0;
+}
+.group-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#scores{
+    margin-top: 2%;
+}
+#buttons{
+    margin-top: 6%;
+}
+#button-play, #button-register, #button-submit{
+    width: 458px;
+    height: 95px;
+    background: rgba(0, 0, 0, 0.42);
+    border: 5px solid #2B022C;
+    font-family: 'Odibee Sans';
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 95px;
+    cursor: pointer;
+}
+#button-play{
+    cursor: default;
+    opacity: 0.5;
+}
+#button-submit{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+#menu-register{
+    background-size: 100% 100%;
+    width: 1100px;
+    height: 615px;
+    margin-top: 2%;
+    background: url(../img/backRegister.png) center no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 7;
+    flex-direction: column;
+    display: none;
+}
+#register{
+    display: flex;
+    flex-direction: column;
+}
+#label2{
+    font-family: 'Odibee Sans';
+    font-style: normal;
+    font-size: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+#table-register{
+    margin-left: 25%;
+    margin-top: 0%;
+    padding-top: 2%;
+}
+.text-main2{
+    font-family: 'Odibee Sans';
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.inputs{
+    width: 400px;
+    height: 48px;
+    background: #000000;
+    border: none;
+    font-family: 'Odibee Sans';
+    font-size: 48px;
+    color: #FFFFFF;
+}
+#game-area{
+    background-size: 100% 100%;
+    width: 1100px;
+    height: 615px;
+    margin-top: 2%;
+    flex-direction: column;
+    background: url(../img/area.png) center no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    /*display: flex;*/
+    display: none;
+}
+#platform{
+    position: absolute;
+    width: 210px;
+    height: 34px;
+    background: #A0007D;
+    bottom: 1%;
+    z-index: 3;
+}
+#circle{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #F2BD00;
+    border-radius: 50%;
+}
+#block-area{
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+.block-1, .block-2{
+    position: absolute;
+    background: #810045;
+    width: 100px;
+    height: 20px;
+   
+}
+.block-2{
+    background: #7B027D;
+}
+.heart-1, .heart-2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../img/live-1.png) center no-repeat;
+}
+.heart-2{
+    background: url(../img/live-2.png) center no-repeat;
+}
+.score{
+    position: absolute;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+#game-over{
+    width: 1100px;
+    height: 615px;
+    flex-direction: column;
+    z-index: 5;
+    /*display: flex;*/
+    background: rgba(0, 0, 0, 0.68);
+    position: absolute;
+    left: 218px;
+    top: 30.5px;
+    display: none;
+}
+#game-over-pic{
+    width: 800px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+.text-main-3{
+    font-family: 'Odibee Sans';
+    font-size: 38px;
+    color: #FFFFFF;
+}
+.group-item-2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+}
+#play-again, #back{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Odibee Sans';
+    font-style: normal;
+    font-size: 64px;
+    color: #FFFFFF;
+    width: 427px;
+    vertical-align: middle;
+    line-height: 120px;
+    margin-top: 8%;
+    cursor: pointer;
+}
+#reload-pic{
+    width: 120px;
+    height: 120px;
+}
+#back-pic{
+    width: 120px;
+    height: 120px;
+}

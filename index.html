@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script/game.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" src="Qore.otf" crossorigin>
+</head>
+<body>
+    <section id="menu">
+        <h1 id="label">ARCANOID</h1>
+        <span class="text-main" style="margin-top:2%; margin-left: 2%;">NICKNAME: <span id="nick" class="text-main"></span> </span>
+        <div class="group-item" id="scores">
+            <span class="text-main" style="margin-left: 2%;">HIGH SCORE: </span><span id="high-score" class="text-main"></span>
+            <span class="text-main">YOUR SCORE:  </span><span id="your-score" class="text-main"></span>
+        </div>
+        <div class="group-item" id="buttons">
+            <a id="button-register">REGISTER</a>
+            <a id="button-play">PLAY</a>
+        </div>
+    </section>
+    <section id="menu-register">
+        <h1 id="label2">REGISTER</h1>
+        <form id="register">
+            <table id="table-register">
+                <tr>
+                    <td><span class="text-main2">NICKNAME</span></td>
+                    <td><input type="text" id="input-nick" class="inputs" style="margin-left: 2%;"></td>
+                </tr>
+                <tr>
+                    <td><span class="text-main2">PASSWORD</span></td>
+                    <td><input type="password" id="input-password-1" class="inputs" style="margin-left: 2%;"></td>
+                </tr>
+                <tr>
+                    <td><span class="text-main2">PASSWORD</span></td>
+                    <td><input type="password" id="input-password-2" class="inputs" style="margin-left: 2%;"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><span class="text-main2" style="font-size: 30px;">*repeat your password</span></td>
+                </tr>
+            </table>
+            <button id="button-submit" type="submit">SUBMIT</button>
+        </form>
+        
+    </section>
+    <section id="game-area">
+       
+    </section>
+    <section id="game-over">
+        <img src="img/gameOver.png" id="game-over-pic">
+        <span class="text-main-3" style="margin-left: 38%; margin-top: 2%;">HIGH SCORE: <span id="high-score-final" class="text-main-3"></span></span>
+        <span class="text-main-3" style="margin-left: 38%;">YOUR SCORE:  <span id="your-score-final" class="text-main-3"></span></span>
+        <div class="group-item-2">
+            <div id="play-again">
+                <img src="img/reload.png" id="reload-pic">
+                <span style="margin-left: 2%;">PLAY AGAIN</span>
+            </div>
+            <div id="back">
+                <img src="img/back.png" id="back-pic">
+                <span >BACK</span>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
